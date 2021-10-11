@@ -12,7 +12,8 @@ This project was done using the Effects shader system from DirectX.
 - Transparancy(not entirely implemented on CPU-Rasterizer)
 - Cycle SamplingState: Point, Linear, Anisotropic (only GPU)
 - Cycle Cullmodes: None, Front-Face and Back-Face Culling
-- Togeling the use of textures (CPU only)
+- Pultiple texture types: Diffuse, Normal, Glossiness & Specular
+- Toggeling the use of textures maps(CPU only)
 - Cycling Scenes if multiple are added
 - Turntable
 - Frustrum culling
