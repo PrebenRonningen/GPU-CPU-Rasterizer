@@ -58,8 +58,8 @@ int main(int argc, char* args[])
 	SDL_Init(SDL_INIT_VIDEO);
 	std::string windowTitle = "Rasterizer - **Preben Ronningen**";
 
-	const uint32_t width = 1074;
-	const uint32_t height = 300;
+	const uint32_t width = 640;
+	const uint32_t height = 480;
 	SDL_Window* pWindow = SDL_CreateWindow(
 		windowTitle.c_str(),
 		SDL_WINDOWPOS_UNDEFINED,
