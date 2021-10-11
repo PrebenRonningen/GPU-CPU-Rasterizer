@@ -4,6 +4,19 @@ The Goal for this project was to be able to seemplessly Rendering the scene on t
 Toggeling between GPU and CPU by the click of a buttton. 
 This project was done using the Effects shader system from DirectX
 
+# What the rasterizer can do:
+
+- Triangle Mesh Rasterizing
+- Camera, Dynamic movement with Keyboard & Mouse, adjustable FOV
+- Runtime Rendermode change from CPU to GPU (switch from Right handedness to Left handedness)
+- Transparancy(not entirely implemented on CPU-Rasterizer)
+- Cycle SamplingState: Point, Linear, Anisotropic (only GPU)
+- Cycle Cullmodes: None, Front-Face and Back-Face Culling
+- Togeling the use of textures (CPU only)
+- Cycling Scenes if multiple are added
+- Turntable
+- Frustrum culling
+
 # Comparison
 Hardware Rasterizing
 
@@ -19,16 +32,3 @@ Overlayd
 
 # Remarks
 As can be seen in the image above, I did not finallize my implementation of transparacy for the CPU Rasterizer, this is something I hope to come back to.
-
-# What the rasterizer can do:
-
-- Triangle Mesh Rasterizing
-- Camera, Dynamic movement with Keyboard & Mouse, adjustable FOV
-- Runtime Rendermode change from CPU to GPU (switch from Right handedness to Left handedness)
-- Transparancy(not entirely implemented on CPU-Rasterizer)
-- Cycle SamplingState: Point, Linear, Anisotropic (only GPU)
-- Cycle Cullmodes: None, Front-Face and Back-Face Culling
-- Togeling the use of textures (CPU only)
-- Cycling Scenes if multiple are added
-- Turntable
-- Frustrum culling
