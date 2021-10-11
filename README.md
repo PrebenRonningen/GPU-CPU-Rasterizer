@@ -6,7 +6,7 @@ Toggeling between GPU and CPU by the click of a buttton.
 # Comparison
 Hardware Rasterizing
 
-![SRasterizer2](https://user-images.githubusercontent.com/28813555/136844706-578fc6d9-13c0-4f16-8a96-c812ae9e8cd5.png)
+![HRasterizer2](https://user-images.githubusercontent.com/28813555/136845176-25f0e536-64eb-4801-ab18-d46f891ed8d1.png)
 
 Software Rasterixing
 
