@@ -2,7 +2,7 @@
 
 The Goal for this project was to be able to seemplessly Rendering the scene on the GPU and then switch to rendering on the CPU.
 Toggeling between GPU and CPU by the click of a buttton. 
-This project was done using the Effects shader system from DirectX
+This project was done using the Effects shader system from DirectX.
 
 # What the rasterizer can do:
 
